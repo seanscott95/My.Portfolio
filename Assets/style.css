@@ -8,6 +8,12 @@ body {
     background-color: grey;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+    min-height: 100vh;
+}
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
 }
 
 .main-header {
@@ -39,4 +45,23 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
+}
+
+.about-me-container, .my-work-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.about-me-title, .my-work-title {
+    font-size: 25px;
+    width: 20%;
+    text-align: right;
+    padding: 50px;
+    border-right: 3px black;
+}
+
+.about-me-info, .my-work-items {
+    width: 80%;
+    padding: 20px;
 }
