@@ -24,7 +24,12 @@ body {
     height: 140px;
 }
 
-.main-nav ul {
+.contact-info-items ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav ul, .contact-info-items ul{
     display: flex;
     margin: 0;
     padding: 0;
@@ -50,6 +55,13 @@ body {
 .about-me-container {
     display: flex;
     flex-direction: row;
+    padding: 10px;
+}
+
+.contact-info-container {
+    display:flex;
+    flex-direction: row;
+    text-align: space-between;
     padding: 10px;
 }
 
@@ -95,7 +107,7 @@ body {
     margin-left: 10px;
 }
 
-.about-me-title, .my-work-title {
+.about-me-title, .my-work-title, .contact-info-title {
     font-size: 25px;
     width: 20%;
     text-align: right;
@@ -103,12 +115,11 @@ body {
     border-right: 3px black;
 }
 
-.about-me-info, .my-work-items {
+.about-me-info, .my-work-items, .contact-info-items {
     width: 80%;
     padding: 20px;
-    background-color: ;
 }
 
-.about-me-container {
+.about-me-container, .contact-info-container {
     background-color: royalblue;
 }
