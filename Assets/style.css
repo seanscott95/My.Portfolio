@@ -47,21 +47,68 @@ body {
     padding: 0 40px;
 }
 
-.about-me-container, .my-work-container {
+.about-me-container {
     display: flex;
     flex-direction: row;
     padding: 10px;
+}
+
+.my-work-container {
+    display:flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: brown;
+    margin: 20px 0;
+}
+
+.my-work-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+    justify-content: space-around;
+}
+
+.work-1 {
+    min-width: 100%;
+    height: 250px;
+    width: 100%;
+    flex-grow: 2;
+    background-color: red;
+    padding: 20px;
+    margin: 20px 20px;
+}
+
+.work-2, .work-3 {
+    height: 250px;
+    background-color: red;
+    margin: 20px 0;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.work-2 {
+    margin-right: 10px;
+}
+
+.work-3 {
+    margin-left: 10px;
 }
 
 .about-me-title, .my-work-title {
     font-size: 25px;
     width: 20%;
     text-align: right;
-    padding: 50px;
+    padding: 50px 10px;
     border-right: 3px black;
 }
 
 .about-me-info, .my-work-items {
     width: 80%;
     padding: 20px;
+    background-color: ;
+}
+
+.about-me-container {
+    background-color: royalblue;
 }
