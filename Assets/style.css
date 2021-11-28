@@ -91,9 +91,8 @@ color: white;
 }
 
 .work-1 {
-    min-width: 100%;
+    min-width: 90%;
     height: 250px;
-    width: 100%;
     flex-grow: 2;
     background-color: blue;
     padding: 20px;
@@ -103,17 +102,9 @@ color: white;
 .work-2, .work-3 {
     height: 250px;
     background-color: blue;
-    margin: 20px 0;
+    margin: 20px 20px;
     flex-grow: 1;
     padding: 20px;
-}
-
-.work-2 {
-    margin-right: 10px;
-}
-
-.work-3 {
-    margin-left: 10px;
 }
 
 .about-me-title, .my-work-title, .contact-info-title {
@@ -137,3 +128,38 @@ color: white;
 .main-nav ul {
     border-radius: 50%;
 }
+
+@media screen and (max-width: 481px) {
+    .my-work-items {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+  }
+
+@media screen and (max-width: 481px) {
+    .main-header {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+  }
+
+@media screen and (max-width: 481px) {
+    .top-image {
+        margin-top: 200px;
+    }
+  }
+
+@media screen and (max-width: 481px) {
+    .about-me-container, .contact-info-container, .my-work-container {
+        flex-direction: column;
+    }
+  }
+
+@media screen and (max-width: 481px) {
+    .about-me-title, .contact-info-title, .my-work-title, .about-me-info, .contact-info-title, .my-work-title {
+        border: none;
+        align-self: center;
+    }
+  }
