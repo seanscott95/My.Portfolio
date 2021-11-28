@@ -5,10 +5,15 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: grey;
+    background-color: #031163;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     min-height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    padding-left: 20px;
 }
 
 .full-height-grow {
@@ -42,6 +47,11 @@ color: white;
     background-color: royalblue;
 }
 
+.main-nav {
+    border: 5px solid #1fbfb8;
+    border-radius: 50%;
+}
+
 .main-nav a {
     color: inherit;
     text-decoration: none;
@@ -58,25 +68,12 @@ color: white;
     padding: 0 40px;
 }
 
-.about-me-container {
+.about-me-container, .contact-info-container, .my-work-container {
     display: flex;
     flex-direction: row;
     padding: 10px;
-}
-
-.contact-info-container {
-    display:flex;
-    flex-direction: row;
-    text-align: space-between;
-    padding: 10px;
-}
-
-.my-work-container {
-    display:flex;
-    flex-direction: row;
-    padding: 10px;
-    background-color: royalblue;
-    margin: 20px 0;
+    margin: 10px;
+    border: 5px solid #1fbfb8;
 }
 
 .my-work-items {
@@ -91,14 +88,14 @@ color: white;
     height: 250px;
     width: 100%;
     flex-grow: 2;
-    background-color: red;
+    background-color: blue;
     padding: 20px;
     margin: 20px 20px;
 }
 
 .work-2, .work-3 {
     height: 250px;
-    background-color: red;
+    background-color: blue;
     margin: 20px 0;
     flex-grow: 1;
     padding: 20px;
@@ -117,7 +114,7 @@ color: white;
     width: 20%;
     text-align: right;
     padding: 50px 10px;
-    border-right: 3px black;
+    border-right: 5px solid #1fbfb8;
 }
 
 .about-me-info, .my-work-items, .contact-info-items {
@@ -125,6 +122,11 @@ color: white;
     padding: 20px;
 }
 
-.about-me-container, .contact-info-container {
+.about-me-container, .contact-info-container, .my-work-container {
     background-color: royalblue;
+    border-radius: 10deg;
+}
+
+.main-nav ul {
+    border-radius: 50%;
 }
