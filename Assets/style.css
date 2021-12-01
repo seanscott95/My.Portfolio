@@ -1,4 +1,4 @@
-*, *::before, ::after {
+* {
     box-sizing: border-box;
 }
 
@@ -34,18 +34,17 @@ h1 {
     height: 140px;
 }
 
-.contact-info-items ul {
-    display: flex;
-    justify-content: space-around;
-}
-
-
 .main-nav ul, .contact-info-items ul{
     display: flex;
     margin: 0;
     padding: 35px 0;
     list-style: none;
     background-color: royalblue;
+}
+
+.contact-info-items ul {
+    display: flex;
+    justify-content: space-around;
 }
 
 .main-nav {
@@ -84,10 +83,6 @@ h1 {
     justify-content: space-around;
 }
 
-.individual-work-title {
-    color: black;
-}
-
 .avatar {
     width: 100px;
     height: 100px;
@@ -100,36 +95,32 @@ h1 {
     margin: 0 10px;
 }
 
-.work-1, .work-2, .work-3 {
+.individual-work-title {
+    color: black;
     background-image: url(\placement.holder.jpg);
 }
 
-.work-1:hover, .work-2:hover, .work-3:hover {
+.individual-work-title:hover {
     transform: scale(1.1);
     border: 3px solid blueviolet;
-}
-
-
-.work-1:hover, .work-2:hover, .work-3:hover {
-    transform: scale(1.1);
-    border: 3px solid blueviolet;
+    opacity: .7;
 }
 
 .work-1 {
     min-width: 90%;
     height: 250px;
     flex-grow: 2;
-    background-color: blue;
     padding: 20px;
     margin: 20px 20px;
+    border: 3px solid blue;
 }
 
 .work-2, .work-3 {
     height: 250px;
-    background-color: blue;
     margin: 20px 20px;
     flex-grow: 1;
     padding: 20px;
+    border: 3px solid blue;
 }
 
 .container-title {
