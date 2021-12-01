@@ -1,4 +1,4 @@
-# Week.2.Homework
+# My Portfolio
 
 This was created to display a portfolio and web applications that a potential employee has created. All so an employee can see whether or not that are a suitable candidate for a job application.
 
