@@ -9,4 +9,4 @@ This consists of a portfolio that has a layout that is neat and orderly. A Navba
 ![Website Photo 1](.\Assets\portfolio-1.png "Website Photo 1")
 ![Website Photo 2](.\Assets\portfolio-2.png "Website Photo 2")
 
-Link to website:
+Link to website: https://seanscott95.github.io/My.Portfolio/
