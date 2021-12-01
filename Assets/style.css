@@ -11,6 +11,11 @@ body {
     min-height: 100vh;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    }    
+
 h1 {
     font-size: 50px;
     padding-left: 20px;
@@ -34,10 +39,6 @@ h1 {
     justify-content: space-around;
 }
 
-a {
-text-decoration: none;
-color: white;
-}
 
 .main-nav ul, .contact-info-items ul{
     display: flex;
@@ -81,6 +82,9 @@ color: white;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.individual-work-title {
     color: black;
 }
 
@@ -189,3 +193,4 @@ color: white;
         text-align: center;
     }
   }
+
