@@ -74,6 +74,8 @@ h1 {
     padding: 10px;
     margin: 10px;
     border: 5px solid #1fbfb8;
+    border-radius: 10deg;
+    background-color: royalblue;
 }
 
 .my-work-items {
@@ -95,11 +97,6 @@ h1 {
     margin: 0 10px;
 }
 
-.individual-work-title {
-    color: black;
-    background-image: url(\placement.holder.jpg);
-}
-
 .individual-work-title:hover {
     transform: scale(1.1);
     border: 3px solid blueviolet;
@@ -107,20 +104,34 @@ h1 {
 }
 
 .work-1 {
+    color: black;
     min-width: 90%;
     height: 250px;
     flex-grow: 2;
     padding: 20px;
     margin: 20px 20px;
     border: 3px solid blue;
+    background-image: url(\Weather-Dashboard-3.png);
 }
 
-.work-2, .work-3 {
+.work-2 {
+    color: black;
     height: 250px;
     margin: 20px 20px;
     flex-grow: 1;
     padding: 20px;
     border: 3px solid blue;
+    background-image: url(\calendar-1.png);
+}
+
+.work-3 {
+    color: black;
+    height: 250px;
+    margin: 20px 20px;
+    flex-grow: 1;
+    padding: 20px;
+    border: 3px solid blue;
+    background-image: url(\movie-hunter-screenshot.png);
 }
 
 .container-title {
@@ -137,8 +148,7 @@ h1 {
 }
 
 .section-container {
-    background-color: royalblue;
-    border-radius: 10deg;
+    
 }
 
 .main-nav ul {
