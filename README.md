@@ -1,12 +1,13 @@
 # My Portfolio
 
-This was created to display a portfolio and web applications that a potential employee has created. All so an employee can see whether or not that are a suitable candidate for a job application.
+This was created to display a portfolio and web applications so that a potential employer can view what projects the potential employee has created. The employer can see whether or not they employee is a suitable candidate for a job application.
 
-(Note: Creations and resume need to be addded at a later date).
+The portfolio consists that has a navbar that has links to the different sections of the page. A downloadble PDF link. Each work item has a link to the deployed page and the GitHub page. There is a contact info section at the bottom of the page that has various ways to contact the employee.
 
-This consists of a portfolio that has a layout that is neat and orderly. A Navbar that has links to the different sections of the page. The work items have links to their (future) respective pages. CSS has been used to order and style the page. Media queries used when page gets too small and layout is compromised.
+HTML and CSS were used in the making of the portfolio page.
 
-![Website Photo 1](.\Assets\portfolio-1.png "Website Photo 1")
-![Website Photo 2](.\Assets\portfolio-2.png "Website Photo 2")
+![Screenshot 1](.\Assets\portfolio-1.png)
+![Screenshot 2](.\Assets\portfolio-2.png)
 
-Link to website: https://seanscott95.github.io/My.Portfolio/
+Deployed Link: https://seanscott95.github.io/My.Portfolio/
+GitHub Link: https://github.com/seanscott95/My.Portfolio 
