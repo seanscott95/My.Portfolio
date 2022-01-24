@@ -5,7 +5,8 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #031163;
+    background-color: darkblue;
+    /* background-color: rgb(95, 2, 182); */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     min-height: 100vh;
@@ -52,13 +53,8 @@ li:last-child {
     align-items: center;
 }
 
-.contact-info-items ul {
-    display: flex;
-    justify-content: space-around;
-}
-
 .main-nav {
-    border: 5px solid #1fbfb8;
+    border: 5px solid #031163;
     border-radius: 10px;
 }
 
@@ -84,7 +80,7 @@ a:hover, .download-resume:hover {
     flex-direction: row;
     padding: 10px;
     margin: 10px;
-    border: 5px solid #1fbfb8;
+    border: 5px solid #031163;
     border-radius: 10px;
     background-color: royalblue;
 }
@@ -109,7 +105,7 @@ a:hover, .download-resume:hover {
 
 .individual-work-title:hover, .project-link:hover, .project-link-github:hover {
     transform: scale(1.1);
-    border: 3px solid blueviolet;
+    border: 3px solid #031163;
 }
 
 .individual-work-title {
@@ -124,7 +120,7 @@ a:hover, .download-resume:hover {
 
 .project-card {
     color: white;
-    background-color: rgb(95, 2, 182);
+    background-color: #031163;
     max-width: fit-content;
     max-height: auto;
     padding: 5px;
@@ -182,12 +178,10 @@ a:hover, .download-resume:hover {
     width: 20%;
     text-align: right;
     padding: 50px 10px;
-    border-right: 5px solid #1fbfb8;
+    border-right: 5px solid #031163;
 }
 
 .container-info {    
-    display: flex;
-    align-items: center;
     width: 80%;
     padding: 20px;
 }
@@ -198,6 +192,11 @@ a:hover, .download-resume:hover {
 
 .about-me-text {
     padding: 20px;
+}
+
+.about-me-info {
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (max-width: 481px) {
