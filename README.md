@@ -10,4 +10,5 @@ HTML and CSS were used in the making of the portfolio page.
 ![Screenshot 2](./Assets/Images/portfolio-2.png)
 
 Deployed Link: https://seanscott95.github.io/My.Portfolio/
+<br>
 GitHub Link: https://github.com/seanscott95/My.Portfolio 

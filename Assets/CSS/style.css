@@ -97,8 +97,8 @@ a:hover, .download-resume:hover {
 }
 
 .avatar {
-    width: 100px;
-    height: 100px;
+    width: 20%;
+    height: auto;
 }
 
 .top-image {
@@ -185,7 +185,9 @@ a:hover, .download-resume:hover {
     border-right: 5px solid #1fbfb8;
 }
 
-.container-info {
+.container-info {    
+    display: flex;
+    align-items: center;
     width: 80%;
     padding: 20px;
 }
@@ -193,8 +195,9 @@ a:hover, .download-resume:hover {
 .main-nav {
     border-radius: 10px;
 }
-.avatar {
-    margin-bottom: 30px;
+
+.about-me-text {
+    padding: 20px;
 }
 
 @media screen and (max-width: 481px) {
