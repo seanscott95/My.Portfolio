@@ -36,12 +36,16 @@ li:last-child {
     justify-content: space-evenly;
     color: inherit;
     height: 140px;
+    background-image: url(../Images/modern-abstract-blue.jpg);
+    background-size: cover;
+    max-width: 100%;
+    max-height: auto;
 }
 
 .main-nav ul, .contact-info-items ul{
     display: flex;
     margin: 0;
-    padding: 35px 0;
+    padding: 30px 0;
     list-style: none;
     background-color: royalblue;
     justify-content: space-evenly;
@@ -98,7 +102,6 @@ a:hover, .download-resume:hover {
 }
 
 .top-image {
-    background-image: url(../Images/modern-abstract-blue.jpg);
     height: 100px;
     background-size: cover;
     margin: 0 10px;
