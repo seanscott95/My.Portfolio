@@ -6,8 +6,8 @@ The portfolio consists that has a navbar that has links to the different section
 
 HTML and CSS were used in the making of the portfolio page.
 
-![Screenshot 1](.\Assets\portfolio-1.png)
-![Screenshot 2](.\Assets\portfolio-2.png)
+![Screenshot 1](./Images/Assets/portfolio-1.png)
+![Screenshot 2](./Images/Assets/portfolio-2.png)
 
 Deployed Link: https://seanscott95.github.io/My.Portfolio/
 GitHub Link: https://github.com/seanscott95/My.Portfolio 
