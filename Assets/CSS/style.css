@@ -3,13 +3,11 @@
 }
 
 body {
-    padding: 0;
+    padding-top: 0;
     margin: 0;
     background-color: darkblue;
-    /* background-color: rgb(95, 2, 182); */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    min-height: 100vh;
 }
 
 a {
@@ -22,16 +20,12 @@ h1 {
     padding-left: 20px;
 }
 
-li:last-child {
-    padding-right: 10px;
-}
-
 .full-height-grow {
     display: flex;
     flex-direction: column;
 }
 
-.main-header {
+/* .main-header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -41,9 +35,9 @@ li:last-child {
     background-size: cover;
     max-width: 100%;
     max-height: auto;
-}
+} */
 
-.main-nav ul, .contact-info-items ul{
+.contact-info-items ul{
     display: flex;
     margin: 0;
     padding: 30px 0;
@@ -53,27 +47,12 @@ li:last-child {
     align-items: center;
 }
 
-.main-nav {
-    border: 5px solid #031163;
-    border-radius: 10px;
-}
-
-.main-nav a {
-    color: inherit;
-    text-decoration: none;
-    padding: 1rem;
-}
-
 a:hover, .download-resume:hover {
     color:lightblue;
     cursor: grab;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 40px;
-}
+
 
 .section-container {
     display: flex;
@@ -89,7 +68,6 @@ a:hover, .download-resume:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .avatar {
@@ -97,11 +75,11 @@ a:hover, .download-resume:hover {
     height: auto;
 }
 
-.top-image {
+/* .top-image {
     height: 100px;
     background-size: cover;
     margin: 0 10px;
-}
+} */
 
 .individual-work-title:hover, .project-link:hover, .project-link-github:hover {
     transform: scale(1.1);
@@ -112,6 +90,12 @@ a:hover, .download-resume:hover {
     display: flex;
     flex-direction: column;
     position: relative;
+    color: black;
+    height: 250px;
+    margin: 20px 20px;
+    padding: 20px;
+    border: 3px solid blue;
+    background-size: cover;
 }
 
 .project-name {
@@ -121,44 +105,24 @@ a:hover, .download-resume:hover {
 .project-card {
     color: white;
     background-color: #031163;
-    max-width: fit-content;
-    max-height: auto;
     padding: 5px;
     border-radius: 10px;
 }
 
 .work-1 {
-    color: black;
     min-width: 90%;
-    height: 250px;
     flex-grow: 2;
-    padding: 20px;
-    margin: 20px 20px;
-    border: 3px solid blue;
     background-image: url(../Images/paws.png);
-    background-size: cover;
 }
 
 .work-2 {
-    color: black;
-    height: 250px;
-    margin: 20px 20px;
     flex-grow: 1;
-    padding: 20px;
-    border: 3px solid blue;
     background-image: url(../Images/homepage.png);
-    background-size: cover;
 }
 
 .work-3 {
-    color: black;
-    height: 250px;
-    margin: 20px 20px;
     flex-grow: 1;
-    padding: 20px;
-    border: 3px solid blue;
     background-image: url(../Images/viewAllEmployees.png);
-    background-size: cover;
 }
 
 .project-link {
@@ -186,10 +150,6 @@ a:hover, .download-resume:hover {
     padding: 20px;
 }
 
-.main-nav {
-    border-radius: 10px;
-}
-
 .about-me-text {
     padding: 20px;
 }
@@ -199,39 +159,51 @@ a:hover, .download-resume:hover {
     align-items: center;
 }
 
+#mainNavbar {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.job-role {
+    margin-bottom: 20px;
+    padding-top: 80px;
+    text-align: center;
+}
+
 @media screen and (max-width: 481px) {
-    .my-work-items {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-      }
+    
     .section-container {
         flex-direction: column;
     }
     .container-title, .container-info {
-            border: none;
-            align-self: center;
-    }
-    .top-image {
-        margin-top: 200px;
-    }
-    .main-header {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-      }
-    .top-image {
-        display: none;
-    }
-    .about-me-container {
-        margin-top: 350px;
-    }
-    .contact-info-items ul {
-        display: flex;
-        flex-direction: column;
+        border: none;
+        align-self: center;
+        padding: 0; 
     }
     .container-title {
         width: 50%;
         text-align: center;
     }
-  }
+    .avatar {
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 570px) {
+    .contact-info-container {
+        padding-right: 100px;
+    }
+}
+
+@media (min-width: 991px) {
+    .job-role {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 351px) {
+    .job-role {
+        padding-top: 120px;
+    }
+}
