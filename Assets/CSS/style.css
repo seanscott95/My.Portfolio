@@ -135,7 +135,7 @@ a:hover, .download-resume:hover {
     padding: 20px;
     margin: 20px 20px;
     border: 3px solid blue;
-    background-image: url(../Images/Weather-Dashboard-3.png);
+    background-image: url(../Images/paws.png);
     background-size: cover;
 }
 
@@ -146,7 +146,7 @@ a:hover, .download-resume:hover {
     flex-grow: 1;
     padding: 20px;
     border: 3px solid blue;
-    background-image: url(../Images/calendar-1.png);
+    background-image: url(../Images/homepage.png);
     background-size: cover;
 }
 
@@ -157,7 +157,7 @@ a:hover, .download-resume:hover {
     flex-grow: 1;
     padding: 20px;
     border: 3px solid blue;
-    background-image: url(../Images/movie-hunter-screenshot.png);
+    background-image: url(../Images/viewAllEmployees.png);
     background-size: cover;
 }
 
