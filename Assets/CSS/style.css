@@ -17,7 +17,7 @@
 }
 
 body {
-    padding-top: 0;
+    padding: 0;
     margin: 0;
     background-color: var(--fir-col);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -34,10 +34,10 @@ h1 {
     padding-left: 20px;
 }
 
-.full-height-grow {
+/* .full-height-grow {
     display: flex;
     flex-direction: column;
-}
+} */
 
 /* .main-header {
     display: flex;
@@ -78,7 +78,7 @@ a:hover, .download-resume:hover {
     flex-direction: row;
     padding: 10px;
     margin: 10px;
-    border: 5px solid var(--thi-col);
+    border-bottom: 5px solid var(--thi-col);      /*Borders around section containers?   */
     border-radius: 10px;
     background-color: var(--sec-col);
 }
@@ -166,6 +166,8 @@ a:hover, .download-resume:hover {
     text-align: right;
     padding: 50px 10px;
     border-right: 5px solid var(--thi-col);
+    border-radius: 10px;
+
 }
 
 .container-info {    
@@ -186,12 +188,22 @@ a:hover, .download-resume:hover {
     width: 100%;
     position: fixed;
     z-index: 100;
+    color: var(--thi-col);
+    background-color: var(--thi-col);
 }
 
 .job-role {
     margin-bottom: 20px;
     padding-top: 80px;
     text-align: center;
+    color: var(--thi-col);
+    font-family: 'Cookie', cursive;
+}
+
+.text-extra {
+    text-align: center;
+    color: var(--thi-col);
+    font-family: 'Cookie', cursive;
 }
 
 @media screen and (max-width: 481px) {
