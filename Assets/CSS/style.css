@@ -148,6 +148,16 @@ a:hover, .download-resume:hover {
     background-image: url(../Images/viewAllEmployees.png);
 }
 
+.work-4 {
+    flex-grow: 1;
+    background-image: url(../Images/weather-dashboard.png);
+}
+
+.work-5 {
+    flex-grow: 1;
+    background-image: url(../Images/team-profile-generator.png);
+}
+
 .project-link {
     position: absolute;
     top: 80%;
