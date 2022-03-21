@@ -114,7 +114,8 @@ a:hover, .download-resume:hover {
     flex-direction: column;
     position: relative;
     color: black;
-    height: 250px;
+    height: 300px;
+    width: 300px;
     margin: 20px 20px;
     padding: 20px;
     border: 3px solid var(--thi-col);
@@ -140,7 +141,8 @@ a:hover, .download-resume:hover {
 
 .work-2 {
     flex-grow: 1;
-    background-image: url(../Images/homepage.png);
+    background-image: url(../Images/team-profile-generator.png);
+
 }
 
 .work-3 {
@@ -155,7 +157,8 @@ a:hover, .download-resume:hover {
 
 .work-5 {
     flex-grow: 1;
-    background-image: url(../Images/team-profile-generator.png);
+    background-image: url(../Images/homepage.png);
+
 }
 
 .project-link {
@@ -205,15 +208,13 @@ a:hover, .download-resume:hover {
 .job-role {
     margin-bottom: 20px;
     padding-top: 80px;
-    text-align: center;
-    color: var(--thi-col);
-    font-family: 'Cookie', cursive;
 }
 
 .text-extra {
     text-align: center;
     color: var(--thi-col);
     font-family: 'Cookie', cursive;
+    font-size: 40px;
 }
 
 @media screen and (max-width: 481px) {
