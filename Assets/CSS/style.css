@@ -72,14 +72,13 @@ a:hover, .download-resume:hover {
 
 }
 
-
 .section-container {
     display: flex;
     flex-direction: row;
     padding: 10px;
     margin: 10px;
-    border-bottom: 5px solid var(--thi-col);      /*Borders around section containers?   */
-    border-radius: 10px;
+    border-top: 5px solid var(--thi-col);
+    border-radius: 45px;
     background-color: var(--sec-col);
 }
 
@@ -105,7 +104,7 @@ a:hover, .download-resume:hover {
     border: 3px solid var(--thi-col);
 }
 
-.first-project:hover {
+.double-display:hover {
     transform: scale(1.05, 1.2);
 }
 
@@ -131,6 +130,7 @@ a:hover, .download-resume:hover {
     background-color: var(--thi-col);
     padding: 5px;
     border-radius: 10px;
+    width: fit-content;
 }
 
 .work-1 {
@@ -174,12 +174,11 @@ a:hover, .download-resume:hover {
 }
 
 .container-title {
-    font-size: 25px;
     width: 20%;
     text-align: right;
-    padding: 50px 10px;
+    padding: 50px 20px;
     border-right: 5px solid var(--thi-col);
-    border-radius: 10px;
+    border-radius: 30px;
 
 }
 
