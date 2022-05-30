@@ -1,5 +1,7 @@
 # My Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+(NOTE: This is my old portfolio that I've decided to leave up for employee's to see the progress of my abilities.)
+
 ---
 ## Table of Contents 
 - [Description](#Description)
